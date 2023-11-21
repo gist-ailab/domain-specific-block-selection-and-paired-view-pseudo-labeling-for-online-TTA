@@ -89,12 +89,10 @@ For CIFAR100-C,
 - WRN40-2A: Hendrycks2020AugMix_WRN
 
 
-This code is based on the official repository for the following works:
-- [Introducing Intermediate Domains for Effective Self-Training during Test-Time](https://arxiv.org/abs/2208.07736) 
-- [Robust Mean Teacher for Continual and Gradual Test-Time Adaptation](https://arxiv.org/abs/2211.13081) (CVPR2023).
-- [Universal Test-time Adaptation through Weight Ensembling, Diversity Weighting, and Prior Correction](https://arxiv.org/abs/2306.00650).
-
 ### Acknowledgements
+
+This code is based on the official repository for the following works:
+
 + Robustbench [official](https://github.com/RobustBench/robustbench)
 + CoTTA [official](https://github.com/qinenergy/cotta)
 + TENT [official](https://github.com/DequanWang/tent)
@@ -104,4 +102,5 @@ This code is based on the official repository for the following works:
 + MEMO [official](https://github.com/zhangmarvin/memo)
 + RoTTA [official](https://github.com/BIT-DA/RoTTA)
 + SAR [official](https://github.com/mr-eggplant/SAR)
++ RMT [official](https://github.com/mariodoebler/test-time-adaptation)
 
