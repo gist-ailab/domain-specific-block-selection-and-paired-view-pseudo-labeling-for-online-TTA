@@ -43,11 +43,6 @@ This repository allows to reproduce the results in the paper. A quick overview i
 
 </details>
 
-### Get Started
-To run one of the following benchmarks, the corresponding datasets need to be downloaded.
-- *CIFAR10-to-CIFAR10-C*: the data is automatically downloaded.
-- *CIFAR100-to-CIFAR100-C*: the data is automatically downloaded.
-
 ### Run Experiments
 To run the code for CIFAR benchmarks, run the following command first.
 ```bash
@@ -82,7 +77,8 @@ Using checkpoints given by RobustBench, we can simply run the adaptation method 
 python test_time.py --cfg cfgs/cifar10_c/dplot.yaml SETTING gradual MODEL.ARCH Kireev2021Effectiveness_RLATAugMix
 ```
 
-The name of the MODEL.ARCH is as follows:
+The name of the MODEL.ARCH is as follows.
+
 For CIFAR10-C,
 - WRN28-10: standard
 - WRN40-2A: Hendrycks2020AugMix_WRN
