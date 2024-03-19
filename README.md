@@ -1,5 +1,5 @@
 # Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation
-This is an source code for reproducing the results in our submission "Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation".
+This is an source code for reproducing the results in our paper "Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation".
 
 
 ## Prerequisites
@@ -29,9 +29,6 @@ This repository allows to reproduce the results in the paper. A quick overview i
   - `continual` Train the model on a sequence of domains without knowing when a domain shift occurs.
   - `gradual` Train the model on a sequence of gradually increasing/decreasing domain shifts without knowing when a domain shift occurs.
   - `mixed_domains` Train the model on one long test sequence where consecutive test samples are likely to originate from different domains.
-  - `correlated` Same as the continual setting but the samples of each domain are further sorted by class label.
-  - `mixed_domains_correlated` Mixed domains and sorted by class label.
-  - Combinations like `gradual_correlated` or `reset_each_shift_correlated` are also possible.
 
 - **Methods**
   - The repository currently supports the following methods: BN-0 (source), BN-1, [TENT](https://openreview.net/pdf?id=uXl3bZLkr3c),
@@ -90,6 +87,7 @@ For CIFAR100-C,
 
 
 ### Acknowledgements
+This work was partially supported by Institute of Information \& communications Technology Planning \& Evaluation (IITP) grant funded by the Korea government (MSIT) (No. 2022-0-00951, Development of Uncertainty Aware Agents Learning by Asking Questions) and by LG Electronics and was collaboratively conducted with the Advanced Robotics Laboratory within the CTO Division of the company.
 
 This code is based on the official repository for the following works:
 
