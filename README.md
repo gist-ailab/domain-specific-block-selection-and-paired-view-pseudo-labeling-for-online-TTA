@@ -100,5 +100,5 @@ This code is based on the official repository for the following works:
 + MEMO [official](https://github.com/zhangmarvin/memo)
 + RoTTA [official](https://github.com/BIT-DA/RoTTA)
 + SAR [official](https://github.com/mr-eggplant/SAR)
-+ RMT [official](https://github.com/mariodoebler/test-time-adaptation)
++ RMT [official](https://github.com/mariodoebler/test-time-adaptation): Base Code for this repository.
 
