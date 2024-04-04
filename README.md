@@ -1,5 +1,5 @@
 # Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation
-This is an source code for reproducing the results in our paper "Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation".
+This is an source code for reproducing the results in our paper "Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation", CVPR 2024.
 
 
 ## Prerequisites
