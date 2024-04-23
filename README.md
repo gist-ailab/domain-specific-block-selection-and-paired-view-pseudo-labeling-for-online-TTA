@@ -1,6 +1,9 @@
-# Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation
-This is an source code for reproducing the results in our paper "Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation", CVPR 2024.
+# Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation (DPLOT)
+Official implementation of the **"Domain Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation (CVPR 2024)"**.
 
+![concept.png](/figure/method.png)
+
+[Paper] [[Arxiv]](https://arxiv.org/abs/2404.10966) [Poster]
 
 ## Prerequisites
 To use the repository, we provide a conda environment.
