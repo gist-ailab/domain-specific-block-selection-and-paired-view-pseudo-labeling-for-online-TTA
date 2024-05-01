@@ -205,8 +205,7 @@ class DPLOT(TTAMethod):
         if type(model).__name__ == 'Hendrycks2020AugMixResNeXtNet':
             blocks = ['stage_1.0', 'stage_1.1', 'stage_1.2', 'stage_2.0', 'stage_2.1', 'stage_2.2', 'stage_3.0', 'stage_3.1', 'stage_3.2']
 
-        # blocks = block_selection(model, self.src_loader, blocks, num_classes)
-        blocks = ['block1']
+        blocks = block_selection(model, self.src_loader, blocks, num_classes)
 
         # Setup EMA model
         self.model_ema = self.copy_model(self.model)
