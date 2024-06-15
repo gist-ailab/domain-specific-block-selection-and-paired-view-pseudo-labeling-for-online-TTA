@@ -3,7 +3,7 @@ Official implementation of the **"Domain Specific Block Selection and Paired-Vie
 
 ![concept.png](/figure/method.png)
 
-[Paper] [[Arxiv]](https://arxiv.org/abs/2404.10966) [Poster]
+[[Presentation]](https://youtu.be/iDVgSxJkAsY?si=N54yHcHfeEF22sIN) [[Arxiv]](https://arxiv.org/abs/2404.10966) [Poster]
 
 ## Prerequisites
 To use the repository, we provide a conda environment.
