@@ -3,7 +3,7 @@ Official implementation of the **"Domain Specific Block Selection and Paired-Vie
 
 ![concept.png](/figure/method.png)
 
-[[Presentation]](https://youtu.be/iDVgSxJkAsY?si=N54yHcHfeEF22sIN) [[Arxiv]](https://arxiv.org/abs/2404.10966) [Poster]
+[[Presentation]](https://youtu.be/iDVgSxJkAsY?si=N54yHcHfeEF22sIN) [[Paper]](https://openaccess.thecvf.com/content/CVPR2024/papers/Yu_Domain-Specific_Block_Selection_and_Paired-View_Pseudo-Labeling_for_Online_Test-Time_Adaptation_CVPR_2024_paper.pdf) [[Arxiv]](https://arxiv.org/abs/2404.10966) [[Poster]](./figure/poster_v2.png)
 
 ## Prerequisites
 To use the repository, we provide a conda environment.
@@ -88,7 +88,6 @@ For CIFAR100-C,
 - ResNext-29A: Hendrycks2020AugMix_ResNeXt
 - WRN40-2A: Hendrycks2020AugMix_WRN
 
-
 ### Acknowledgements
 This work was partially supported by Institute of Information \& communications Technology Planning \& Evaluation (IITP) grant funded by the Korea government (MSIT) (No. 2022-0-00951, Development of Uncertainty Aware Agents Learning by Asking Questions) and by LG Electronics and was collaboratively conducted with the Advanced Robotics Laboratory within the CTO Division of the company.
 
@@ -105,3 +104,14 @@ This code is based on the official repository for the following works:
 + SAR [official](https://github.com/mr-eggplant/SAR)
 + RMT [official](https://github.com/mariodoebler/test-time-adaptation): Base Code for this repository.
 
+# Citation
+```
+@InProceedings{Yu_2024_CVPR,
+    author    = {Yu, Yeonguk and Shin, Sungho and Back, Seunghyeok and Ko, Mihwan and Noh, Sangjun and Lee, Kyoobin},
+    title     = {Domain-Specific Block Selection and Paired-View Pseudo-Labeling for Online Test-Time Adaptation},
+    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
+    month     = {June},
+    year      = {2024},
+    pages     = {22723-22732}
+}
+```
